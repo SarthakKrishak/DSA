@@ -1,0 +1,2 @@
+For checking wheather the array is sorted in assending or desending we just need to check the start and end element.
+and after that we can apply whatever technique on that array.

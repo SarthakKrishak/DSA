@@ -1,0 +1,18 @@
+Why Recursion ?
+
+It helps us in solving bigger and complex problems in a simple way.
+
+you can convert recursion solution into iterations and vice versa.
+
+Space complexity is not constant because of recursice calls.
+
+
+Visualizing the recursion,(Recursion Tree)
+
+main()-->print(1)-->print(2)-->print(3)-->print(4)-->print(5)
+
+After completion of the program,
+program over<--main()<--print(1)<--print(2)<--print(3)<--print(4)<--print(5)
+
+
+Also one type of recursion is "tail" recursion

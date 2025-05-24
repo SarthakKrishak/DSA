@@ -1,0 +1,23 @@
+Steps :-
+   1. Identify the correct index for the current number.
+   2. Swap the number to its correct index if it's not already there.
+   3. Repeat until the entire array is sorted.
+
+
+Interview Questions :
+
+What is Cyclic Sort? Explain with examples.
+
+Answer: Discuss the algorithm, use-case for arrays with elements in a known range, and explain the logic of placing elements in their correct positions.
+When would you use Cyclic Sort over other sorting algorithms?
+
+Answer: Use when numbers are in a known range (1 to N) for O(N) time and O(1) space efficiency.
+Explain the complexity of Cyclic Sort.
+
+Answer: Time Complexity: O(N); Space Complexity: O(1) because no extra space is used.
+How do you handle duplicate elements in Cyclic Sort?
+
+Answer: Detect duplicates during swaps. If arr[i] == arr[correct_index], it’s a duplicate.
+How can Cyclic Sort be modified to find the missing number in an array?
+
+Answer: Handle zero-based indexing and check for indices where arr[i] != i.   

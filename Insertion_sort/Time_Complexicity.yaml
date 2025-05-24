@@ -1,0 +1,21 @@
+Time:
+Best Case = O(N)
+Worst Case = O(N^2)
+
+It puts the the index element at the correct index of the LHS.
+
+=> For the first pass,
+Sort the array till index 1 
+
+=> For the second pass,
+Sort the array till index 2
+
+and similarly...
+
+and it will break if the j is greater than j-1 and it will not check the previous elements.
+
+Why we use it-
+1)No of swaps are reduced as compared to bubble sort.
+2) Its stable.
+3) Used for smaller values of N and works good when the array is partially sorted.
+4) It takes part in hybrid sorting algo.

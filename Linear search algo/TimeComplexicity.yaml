@@ -1,0 +1,4 @@
+Time complexicity-
+
+Best Case: O(1)
+worst Case: O(N)  where N is the size of the array

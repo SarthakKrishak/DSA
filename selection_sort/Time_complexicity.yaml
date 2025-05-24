@@ -1,0 +1,9 @@
+Time:
+Best case = O(N^2)
+Worst case = O(N^2)
+
+Stable = No (Stable means something diff here)
+
+=> It performs well in small arrays.
+
+Basically it searches for the max items in the array and then place it in its correct index position. similar goes with smallest element in the array also.

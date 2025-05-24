@@ -1,0 +1,33 @@
+Time:
+Best case = 
+Worst case = O(N)
+
+Space Complexity: O(1) because it modifies the array in place without extra storage.
+
+🔴🔴🔴
+This sorting only works when you are given numbers from range, 
+1 to N.
+(where N is the total number in the array)
+
+🔴🔴🔴
+Applications in Problem Solving
+       Sorting arrays where numbers are in a known range.
+       Finding missing numbers in an array.
+       Detecting duplicates.
+       Identifying misplaced elements.
+
+Now for example,
+
+arr = { 3 , 5 , 2 , 1 , 4 }
+       (0) (1) (2) (3) (4)  --> Index value
+
+After Sorting :
+arr = { 1 , 2 , 3 , 4 , 5 }
+       (0) (1) (2) (3) (4)  --> Index
+
+Now you can see that the ,
+       index = element - 1;
+
+So we can just check at the first element wheather that element is placed at the correct index or not by the above formula so if its not then just directly swap it at the index. and then again check the first element and so on...
+
+If the element at first is at the corect index then it will move forward.

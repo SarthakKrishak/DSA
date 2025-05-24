@@ -1,0 +1,7 @@
+1. With the first pass in the algorithm the largest element comes at the end.
+2. In the second pass the second largest element comes to the second last position.
+3. And similarly for the next passes.
+
+
+
+Bubble sort is also known as Sinking sort or exchange sort.

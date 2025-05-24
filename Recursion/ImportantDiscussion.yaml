@@ -1,0 +1,22 @@
+We have mainly three types of variables in recursion - 1.In the argument.
+                                                       2.In the return type.
+                                                       3.Body of the function.
+
+So you should know where to give these variables during recursion.
+
+If you want to use the variable in the next call then give it in argument.
+
+Now we will take the example of the binary search,
+
+what we do in binary search we can do that same thing with recursion as well
+
+Recursive relation,
+F(n) = F(n/2) + O(1)
+
+This F(n/2) is for dividing the array in half
+and O(1) is for comparisions
+
+
+Types of recurrance relation,
+1. Linear --> ex is fibonacci
+2. Divide and conquere ---> ex is binary search 

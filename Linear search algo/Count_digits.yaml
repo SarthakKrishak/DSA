@@ -1,0 +1,4 @@
+How we can count no of digits:-
+1. Byy converting the number into a string and then calculating its length.
+2. Divide by 10 method
+3. using Math.log10()+1;

@@ -1,0 +1,7 @@
+Time complexicity:
+Best Case: O(n)
+Worst Case: O(n^2)
+
+%Space Complexicity - O(1) constant (As there is no extra space required, i.e. copying the array etc).
+
+Therefore its also known as in place sorting algo
