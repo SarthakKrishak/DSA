@@ -1,0 +1,6 @@
+1. Divide the array into two parts.
+2. Get both of the parts sorted using recursion.
+3. Merge the sorted parts.
+
+Now how to merge the array at the step 3?
+two sorted arrays we are merging.
